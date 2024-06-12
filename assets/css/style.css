@@ -122,15 +122,15 @@ header .controls {
     }
 }
 
-section h2 {
+.recent h2 {
     font-size: 3rem;
 }
 
-section article {
+.recent article {
     display: flex;
 }
 
-section article .article-image {
+.recent article .article-image {
     width: 50%;
     object-fit: cover;
     height: auto;
@@ -138,13 +138,13 @@ section article .article-image {
     margin: 1rem 0;
 }
 
-section article .repo {
+.recent article .repo {
     text-decoration: none;
     color: var(--primary);
     font-weight: bold;
 }
 
-section article .repo:hover {
+.recent article .repo:hover {
     display: block;
     border-left: 2px solid var(--primary);
     padding: 0 1rem;
