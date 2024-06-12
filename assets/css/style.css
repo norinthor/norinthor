@@ -62,7 +62,11 @@ header .controls {
     border: 2px solid var(--primary);
 }
 
-.profile-image {
+.bio {
+    display: flex;
+}
+
+.bio .profile-image {
     width: 350px;
     object-fit: cover;
     border-radius: 15rem 10rem;
@@ -70,7 +74,7 @@ header .controls {
     transition: 0.9s ease-in-out;
 }
 
-.profile-image:hover {
+.bio .profile-image:hover {
     display: block;
     width: 350px;
     object-fit: cover;
@@ -79,20 +83,16 @@ header .controls {
     transition: 0.9s;
 }
 
-h2 {
+.bio h2 {
     font-size: 3rem;
     text-align: center;
 }
 
-h2 strong{
+.bio h2 strong{
     font-size: 4.5rem;
 }
 
-.bio {
-    display: flex;
-}
-
-.btn {
+.bio .btn {
     text-decoration: none;
     color: #ffffe3;
     display: inline-flex;
@@ -126,11 +126,11 @@ section h2 {
     font-size: 3rem;
 }
 
-article {
+section article {
     display: flex;
 }
 
-.article-image {
+section article .article-image {
     width: 50%;
     object-fit: cover;
     height: auto;
@@ -138,13 +138,13 @@ article {
     margin: 1rem 0;
 }
 
-.repo {
+section article .repo {
     text-decoration: none;
     color: var(--primary);
     font-weight: bold;
 }
 
-.repo:hover {
+section article .repo:hover {
     display: block;
     border-left: 2px solid var(--primary);
     padding: 0 1rem;
@@ -202,7 +202,7 @@ footer .social ul li a span i {
     border-radius: 1.25rem;
 }
 
-.copyright{
+footer .copyright{
     display: block;
     text-align: center;
 }
