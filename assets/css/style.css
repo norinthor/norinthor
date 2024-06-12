@@ -122,6 +122,10 @@ h2 strong{
     }
 }
 
+section h2 {
+    font-size: 3rem;
+}
+
 article {
     display: flex;
 }
