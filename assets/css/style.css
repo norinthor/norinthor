@@ -163,36 +163,32 @@ header .controls {
     }
 }
 
-footer a{
+footer {
     text-align: center;
 }
 
-footer .social {
-    text-align: center;
-}
-
-footer .social ul{
+footer .socials {
+    margin: 0;
+    padding: 0;
     display: inline-flex;
+    list-style: none;
 }
 
-footer .social ul li{
-    list-style: none;
+footer .socials li {
     margin: 1rem;
 }
 
-footer .social ul li a {
+footer .socials li a {
     text-decoration: none;
-    color: var(--primary);
+    color: var(--primary)
 }
 
-footer .social ul li a span {
+footer .socials li a span{
     display: block;
     margin: 0.5rem 0;
-    justify-content: space-between;
 }
 
-footer .social ul li a span i {
-    text-decoration: none;
+footer .socials li a span i {
     color: var(--background);
     display: inline-flex;
     height: 2.5rem;
@@ -203,6 +199,8 @@ footer .social ul li a span i {
 }
 
 footer .copyright{
-    display: block;
     text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    font-stretch: condensed;
 }
